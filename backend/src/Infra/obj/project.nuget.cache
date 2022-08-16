@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/K3DZVFtioBhMlXQxBiCuNcVECtZbHYB0YlTfERdu1/ekwHhBwtJbg17uLIGWFGqmX3wOEtPHN6/DFkwsc8TBg==",
+  "dgSpecHash": "DL3kTJU4z4q4eFbOO1N1pvfv9AEhloTyf4UQcVsuk1k4CgOv89YfGT9oyBbkX647Qiz72sonpdXeyeOFY0pPhQ==",
   "success": true,
-  "projectFilePath": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Infra\\Infra.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Camila\\ApiCore-3.1\\Proj.01-GrupoEstudos\\backend\\src\\Infra\\Infra.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
