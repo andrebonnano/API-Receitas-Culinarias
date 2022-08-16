@@ -1,0 +1,71 @@
+{
+    "Receitas": "Entity",
+    "título":"",
+    "data de cadastro":"",
+    "categoria(s)":"",
+    "tags (keywords)":"",
+    "tempo de preparo":"",
+    "qtd porções":"",
+    "ingredientes": [        
+        {
+            "ingredientesMassa":[
+                {
+                    "nome":"",
+                    "qtdmedia":"",
+                    "unidademedida":[
+                        {
+                            "gramass":"",
+                            "mililitros":""
+                        }
+                    ]
+
+                }
+            ],
+            "ingredientesRecheio":[
+                {
+                    "nome":"",
+                    "qtdmedia":"",
+                    "unidademedida":[
+                        {
+                            "gramass":"",
+                            "mililitros":""
+                        }
+                    ]
+
+                }
+            ]
+        }
+    ], 
+    "modo de preparo":[
+            {
+                "preparoMassa":"",
+                "preparoRecheio":""
+            }
+    ],
+    "descrição":"",
+    "avaliações": [
+        {
+            "estrelas":"",
+            "comentarios":""
+            
+        }
+    ],
+    "imagens":"",
+    "vídeos":"",
+
+    "Categoria Receitas:":"Entity",
+ 
+    "Grupo Ingredientes:":"Entity", 
+ 
+    "Avaliações":"Entity",
+ 
+    "Ingredientes":"Entity",
+
+    "Usuarios":"Entity",
+    "nome":"",
+    "sobrenome":"",
+    "senha":"",
+    "email":"",
+    "dataNascimento":""
+ 
+}
