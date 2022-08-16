@@ -1,6 +1,6 @@
 {   "TipoReceita":
 {
-    "receitaDoce":
+    "ReceitaDoce":
     {
         "Receitas":{
             "título":"",
@@ -48,7 +48,7 @@
             }
         ],
         "imagens":"",
-        "vídeos":"",
+        "vídeos":""
     }
 },
     "ReceitaSalgada":
