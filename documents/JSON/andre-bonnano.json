@@ -1,3 +1,127 @@
 {
-    "teste": "teste"
+    "api": "Receitas Culinárias",
+    "type": "receitas",
+    "qty": 1,
+    "search_date": "2022-06-21T18:15:45.449Z",
+    "result":{
+        "título": "Lasanha bolonhesa",
+        "data_cadastro": "2022-06-21T18:15:45.449Z",
+        "categorias": ["Salgados", "Refeições", "Massas"],
+        "tags": ["massa", "lasanha", "bolonhesa", "queijo"],
+        "tempo_preparo": 1.5,
+        "porcoes": 6,
+        "grupos": ["molho", "lasanha"],
+        "ingredientes": {
+            "grupos":[
+                {
+                    "titulo": "molho",
+                    "items":[
+                        {
+                            "item": "tomates",
+                            "qtd": 1,
+                            "und": "kg"
+                        },
+                        {
+                            "item": "carne moída",
+                            "qtd": 0.5,
+                            "und": "kg"
+                        },
+                        {
+                            "item": "cebola",
+                            "qtd": 1,
+                            "und": "unidade",
+                            "detalhe": "grande"
+                        },
+                        {
+                            "item": "alho",
+                            "qtd": 2,
+                            "und": "dentes"
+                        }
+                    ]
+                },{
+                    "titulo": "lasanha",
+                    "items":[
+                        {
+                            "item": "massa para lasanha",
+                            "qtd": 0.5,
+                            "und": "kg"
+                        },
+                        {
+                            "item": "queijo mussarela fatiado",
+                            "qtd": 0.5,
+                            "und": "kg"
+                        },
+                        {
+                            "item": "presunto fatiado",
+                            "qtd": 0.5,
+                            "und": "kg"
+                        },
+                        {
+                            "item": "molho de tomate",
+                            "qtd": 0.5,
+                            "und": "litros"
+                        },
+                        {
+                            "item": "cheiro verde",
+                            "qtd": 0.1,
+                            "und": "kg"
+                        },
+                        {
+                            "item": "cebola",
+                            "qtd": 0.5,
+                            "und": "unidade"
+                        },
+                        {
+                            "item": "alho",
+                            "qtd": 1,
+                            "und": "dente"
+                        }
+
+                    ]
+                }
+            ]
+        },
+        "preparo":  {
+            "grupos":[
+                {
+                    "titulo": "molho",
+                    "etapas": [
+                        "Em uma panela, refogue o alho e a cebola picados",
+                        "Adicione a carne moída e frite até acabar toda a água que a carne soltar",
+                        "Bata os tomates no liquidificador e coloque em uma panela para ferver por aproximadamente 1h",
+                        "Junte com a carne moída e seu molho está pronto"
+                    ]
+                },{
+                    "titulo": "lasanha",
+                    "etapas": [
+                        "Pré-aqueça o forno a 180 graus",
+                        "Em uma assadeira, coloque uma fina camada de molho para a massa não grudar no fundo",
+                        "Faça camadas alternando entre: massa, molho, presunto, queijo e molho (importante seguir essa ordem)",
+                        "Coloque pedaços de queijo picado por cima da ultima camada, para ficar gratinado no final",
+                        "Leve a assadeira ao forno por 35 minutos e estará pronto para servir."
+                    ]
+                }
+            ]
+        },
+        "descricao": "Essa é uma receita de lasanha super simples e fica uma delícia, faça que você não vai se arrepender.",
+        "imagens":["caminho/arquivo.jpg", "caminho/arquivo.png"],
+        "vídeos":["https://urldovideo.com", "https://urldovideo.com"],
+        "avaliacoes":[
+            {
+                "estrelas": 4,
+                "comentario": "fiz e realmente ficou uma delícia",
+                "id_user": "234553789"
+            },
+            {
+                "estrelas": 5,
+                "comentario": "melhor lasanha da minha vida",
+                "id_user": "234553789"
+            },
+            {
+                "estrelas": 0,
+                "comentario": "não gosto de lasanha",
+                "id_user": "234553789"
+            }
+        ]
+    }
 }
