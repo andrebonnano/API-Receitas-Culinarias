@@ -1,0 +1,145 @@
+{
+    "usuarios":
+    {
+        "nome":"Camila",
+        "sobrenome": "Rezende",
+        "data_nascimento": "17-03-1991",
+        "email": "caastefanii@gmail.com",
+        "senha": "string"         
+    },
+
+    "categoria_receitas":
+    {
+        "nome_categoria": "Doces"
+    },
+
+    
+    "receita":
+    {
+        "titulo": "Bolo de Cenoura com Cobertura de Brigadeiro",
+        "data_de_cadastro": "17-08-2022",
+        "categoria": "doce",
+        "tags": ["bolo de cenoura", "coberturas de chocolate"],
+        "tempo_de_preparo": "70min",
+        "qtd porcoes": 20,
+        "dificuldade": "Fácil",
+        "utensílios":
+        {
+            "itens":["Liquidificador", "Refratário", "Forno", "Panela"]  
+            
+        },
+
+        "ingredientes":
+        {
+            "grupo1":
+            {
+                "titulo": "Massa",
+                "itens":
+                [
+                    {
+                        "item": "cenoura",
+                        "quant": 3,
+                        "detalhe": "media"
+                    
+                    },
+
+                    {
+                        "item": "ovo",
+                        "quant": 4
+                    },
+
+                    {
+                        "item": "óleo",
+                        "quant": "meia xícara (chá)"
+                    },
+    
+                    {
+                        "item": " farinha de trigo",
+                        "quant": "2 e meia xícaras (chá)"
+                    },
+    
+                    {
+                        "item": "açúcar",
+                        "quant": "2 xícaras (chá)"
+                    },
+    
+                    {                    
+                        "item": "Fermento em pó",
+                        "quant": "1 colher (sopa)" 
+    
+                    }                    
+                ]                 
+            },
+
+            "grupo2":
+            {
+                "titulo": "cobertura",
+                "itens":
+                [
+                    {
+                    
+                        "item": "Leite Condensado",
+                        "quant": 1,
+                        "detalhe": "lata"                
+                    },
+    
+                    {                    
+                        "item": "manteiga",
+                        "quant": "1 colher (sopa)"     
+                    },
+    
+                    {                    
+                        "item": "Chocolate em Pó",
+                        "quant": "Meia xícara (chá)"
+        
+                    },
+    
+                    {                    
+                        "item": " chocolate granulado",
+                        "quant": "meia xícara (chá)"      
+                    } 
+                ]
+            }
+        },    
+        
+        "modo_de_preparo":
+        {
+            "grupo1":
+            [   
+                {
+                    "titulo":"massa",
+                    "passo_passo":[
+                        "Retire a casca das cenouras, corte-as em pedaços, lave-as e cozinhe-as cobertas com água.", 
+                        "Escorra a água, e deixe que as cenouras esfriem um pouco. Em um liquidificador, bata as cenouras cozidas, os ovos e o óleo.", 
+                        "Despeje a mistura em um recipiente e misture o açúcar e a farinha de trigo peneirada com o fermento.", 
+                        "Coloque em uma fôrma retangular (20 x 30 cm) untada, e leve ao forno médio (180°C), preaquecido, por 40 minutos.", 
+                        "Enquanto isso, prepare a cobertura de brigadeiro."
+                    ]
+                }                
+            ],
+               
+            "grupo2":
+            [
+                {
+                    "titulo": "cobertura",
+                    "passo_passo": [
+                        "Em uma panela coloque o leite condensado, o chocolate em pó e a manteiga e leve ao fogo baixo, mexendo sempre, até começar a desprender da panela.", 
+                        "sobre o bolo, distribua o chocolate granulado e deixe esfriar."
+                    ]
+                }
+            ]         
+        },     
+    
+        "descrição": "Receita de Bolo de Cenoura com cobertura de brigadeiro e chocolate granulado",
+        "imagens" :"http://todaon.com.br/wp-content/uploads/2022/02/BOLO-DE-CENOURA.jpg",
+        "videos":"https://www.youtube.com/watch?v=pobqPedHD5w",
+
+        "avaliacoes":
+        [
+            {
+                "estrelas": 4,
+                "comentario": "Ficou incrível! Uma delícia de bolo 😋😋😋 Foi sucesso ! 👏👏👏🥳"
+            }
+        ]       
+    }     
+}
