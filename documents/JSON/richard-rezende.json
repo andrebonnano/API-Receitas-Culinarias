@@ -1,71 +1,67 @@
+{   "TipoReceita":
 {
-    "Receitas": "Entity",
-    "título":"",
-    "data de cadastro":"",
-    "categoria(s)":"",
-    "tags (keywords)":"",
-    "tempo de preparo":"",
-    "qtd porções":"",
-    "ingredientes": [        
-        {
-            "ingredientesMassa":[
-                {
-                    "nome":"",
-                    "qtdmedia":"",
-                    "unidademedida":[
+    "ReceitaDoce":
+    {
+        "Receitas":{
+            "título":"",
+                "data de cadastro":"",
+                "categoria(s)":"",
+                "tags (keywords)":"",
+                "tempo de preparo":"",
+                "qtd porções":"",
+                "ingredientes":       
                         {
-                            "gramass":"",
-                            "mililitros":""
+                            "ingredientesMassa":
+                                {
+                                    "nome":"",
+                                    "qtdmedia":"",
+                                    "unidademedida":
+                                        {
+                                            "gramass":"",
+                                            "mililitros":""
+                                        }                              
+                                },
+                            "ingredientesRecheio":
+                                {
+                                    "nome":"",
+                                    "qtdmedia":"",
+                                    "unidademedida":
+                                        {
+                                            "gramass":"",
+                                            "mililitros":""
+                                        }
+                                }
                         }
-                    ]
-
-                }
-            ],
-            "ingredientesRecheio":[
+        },        
+        "modo de preparo":[
                 {
-                    "nome":"",
-                    "qtdmedia":"",
-                    "unidademedida":[
-                        {
-                            "gramass":"",
-                            "mililitros":""
-                        }
-                    ]
-
+                    "preparoMassa":"",
+                    "preparoRecheio":""
                 }
-            ]
-        }
-    ], 
-    "modo de preparo":[
+        ],
+        "descrição":"",
+        "avaliações": [
             {
-                "preparoMassa":"",
-                "preparoRecheio":""
+                "estrelas":"",
+                "comentarios":""
+                
             }
-    ],
-    "descrição":"",
-    "avaliações": [
-        {
-            "estrelas":"",
-            "comentarios":""
-            
-        }
-    ],
-    "imagens":"",
-    "vídeos":"",
+        ],
+        "imagens":"",
+        "vídeos":""
+    }
+},
+    "ReceitaSalgada":
+    {
 
-    "Categoria Receitas:":"Entity",
- 
-    "Grupo Ingredientes:":"Entity", 
- 
-    "Avaliações":"Entity",
- 
-    "Ingredientes":"Entity",
+    },
 
-    "Usuarios":"Entity",
-    "nome":"",
-    "sobrenome":"",
-    "senha":"",
-    "email":"",
-    "dataNascimento":""
- 
+    "Usuarios":
+    {
+        "nome":"",
+        "sobrenome":"",
+        "senha":"",
+        "email":"",
+        "dataNascimento":""
+    }   
 }
