@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qWTXDOiCEjvv0t6qVhxdA2e/tdlXmDqoz4cy9vzK1X/4qTE3KE68d9TqgnnctPb9Y5adCKj5vyabogW6+GbFTQ==",
+  "dgSpecHash": "5pXsyZgxVZ7RGXMhKPX7c4oA8Is7SaRKFnXDLnqPXOxu4ls3NT+XQ/DF+jjVuhkNIF/YTRvj/hIECsFqK27IQw==",
   "success": true,
-  "projectFilePath": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\Richard\\source\\repos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

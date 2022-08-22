@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\andre\\.nuget\\packages\\": {}
+    "C:\\Users\\Richard\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\Richard\\source\\repos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\Richard\\source\\repos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\Richard\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Richard\\source\\repos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Richard\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
