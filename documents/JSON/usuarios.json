@@ -1,0 +1,18 @@
+{
+    "api": "Receitas Culinárias",
+    "type": "receitas",
+    "qty": 1,
+    "search_date": "2022-06-21T18:15:45.449Z",
+    "result":{
+        "user_id": "00001",
+        "data_cadastro": "2022-06-21T18:15:45.449Z",
+        "ultimo_Acesso": "2022-06-21T18:15:45.449Z",
+        "ativo": true,
+        "nivel_acesso": "usuario",
+        "email": "usuario@email.com.br",
+        "nome": "André",
+        "sobrenome": "Bonnano",
+        "aniversario": "13/12/1980",
+        "senha": "3546fgh6#5¨$&erty#"
+    }
+}
