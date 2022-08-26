@@ -1,0 +1,115 @@
+{
+    "recipe_id" : 1,
+    "recipe_registration_date" : "2022-06-22",
+    "recipe_category" : "Café da Manhã",
+    "recipe_title" : "Crepioca de Ovo Recheado",
+    "recipe_tags_lists" : ["Tapioca", "Ovo", "Crepe"],
+    "recipe_portions_quantity" : 1,
+    "recipe_preparation_time_hours" : 0.25,
+    "recipe_parts_quantity_name" : ["Crepioca", "Recheio"],
+    "recipe_ingredients" : 
+        {
+            "recipe_group_parts" : 
+            [
+                {
+                    "recipe_group_parts_title" : "Crepioca",
+                    "recipe_group_parts_items" : 
+                        [
+                            {
+                                "recipe_group_parts_items_name" : "Tapioca",
+                                "recipe_group_parts_items_quantity" : 150,
+                                "recipe_group_parts_items_unit_measurement" : "gramas"
+                            },
+                            {
+                                "recipe_group_parts_items_name" : "Ovo",
+                                "recipe_group_parts_items_quantity" : 1,
+                                "recipe_group_parts_items_unit_measurement" : "unidade"
+                            },
+                            {
+                                "recipe_group_parts_items_name" : "Sal",
+                                "recipe_group_parts_items_quantity" : 0.1,
+                                "recipe_group_parts_items_unit_measurement" : "gramas"
+                            }
+                        ]
+                },
+                {
+                    "recipe_group_parts_title" : "Recheio",
+                    "recipe_group_parts_items" : 
+                        [
+                            {
+                                "recipe_group_parts_items_name" : "Presunto",
+                                "recipe_group_parts_items_quantity" : 2,
+                                "recipe_group_parts_items_unit_measurement" : "fatias"
+                            },
+                            {
+                                "recipe_group_parts_items_name" : "Queijo",
+                                "recipe_group_parts_items_quantity" : 2,
+                                "recipe_group_parts_items_unit_measurement" : "fatias"
+                            }
+                        ]
+                }
+            ]
+        },
+    "recipe_preparation" :
+        {   
+            "recipe_group_preparation" : 
+                [
+                    {
+                        "recipe_group_preparation_title" : "Crepioca",
+                        "recipe_group_preparation_steps" : 
+                        [
+                            "Quebre o ovo",
+                            "Coloque o ovo em uma xícara",
+                            "Misture a clara e a gema ate ficar uniforme",
+                            "Acrescente a tapioca aos poucos enquanto vai misturando",
+                            "Misture até ficar uniforme",
+                            "Aqueça a frigideira por 1 a 2 minutos",
+                            "Coloque a mistura na frigideira",
+                            "Balance levemente a frigideira até que fique uniforme",
+                            "Deixe dourar o lado de baixo e vire a massa",
+                            "Deixe dourar o outro lado",
+                            "Desligue o fogo"
+                        ]
+                    },
+                    {
+                        "recipe_group_preparation_title" : "Recheio",
+                        "recipe_group_preparation_steps" : 
+                        [
+                            "Corte o presunto em pequenos pedaços",
+                            "Corte o queijo em pequenos pedaços",
+                            "Misture ambos",
+                            "Acrescente na Crepioca que está na frigideira",
+                            "Dobre a Crepioca no meio após colocar o recheio",
+                            "Pressione levemente ate que fique uniforme"
+                        ]
+                    }
+                ]
+        },
+    "recipe_description" : "Receita simples que deixa a tapioca bem macia",
+    
+    "recipe_images" : "C:\\Users\\Maeda\\dev\\GIT\\Proj.01-GrupoEstudos\\images\\Crepioca_presunto_queijo.png",
+    
+    "recipe_videos" : "no content",
+    
+    "recipe_evaluation" : 
+        {
+            "recipe_group_evaluation" :
+                [
+                    {
+                        "recipe_group_evaluation_username" : "Maria das Flores",
+                        "recipe_group_evaluation_grade" : "Muito Bom",
+                        "recipe_group_evaluation_comments" : "Fácil de fazer e bem macio"
+                    },
+                    {
+                        "recipe_group_evaluation_username" : "Maria das Graças",
+                        "recipe_group_evaluation_grade" : "Bom",
+                        "recipe_group_evaluation_comments" : "Não ficou na consistência mas ficou macio"
+                    },
+                    {
+                        "recipe_group_evaluation_username" : "Maria das Dores",
+                        "recipe_group_evaluation_grade" : "Horrível",
+                        "recipe_group_evaluation_comments" : "Ficou borrachudo"
+                    }
+                ]
+            }
+}
