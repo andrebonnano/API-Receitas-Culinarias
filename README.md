@@ -10,7 +10,7 @@ Projeto de estudos - Criação de API de receitas culinárias.
 | type | tipo de conteúdo retornado |
 | qty | quantidade de objetos retornados na consulta |
 | search_date | data da consulta |
-| result | resultado da consulta |
+| data | resultado da consulta |
 | -- | -- |
 | titulo | título do objeto retornado |
 | data_cadastro | data em que item foi cadastrado |
