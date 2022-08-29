@@ -1,6 +1,16 @@
 # Proj.01-GrupoEstudos
 Projeto de estudos - Criação de API de receitas culinárias.
 
+# História / Context
+- Cadastra uma conta para acessar o sistema
+- Faz o login em sua conta
+- Cria seu livro de receitas
+- Cadastra uma nova receita
+- Inclui um novo ingrediente
+- navega pelas receitas cadastradas
+- Busca por receitas no sistema por categoria ou títudo
+- Adiciona uma receita existente ao seu livro de receitas
+
 
 # Glossário
 
