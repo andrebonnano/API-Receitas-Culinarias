@@ -12,6 +12,21 @@ Projeto de estudos - Criação de API de receitas culinárias.
 - Adiciona uma receita existente ao seu livro de receitas
 
 
+# Modelagem
+## Domínio Principal
+- Catálogo
+- Receitas
+- Ingredientes
+
+## Domínio Genérico
+- Meu livro de receitas
+- Categorias
+- Avaliações
+
+## Domínio Auxiliar
+- autenticação
+
+
 # Glossário
 
 | Item | Descrição |
