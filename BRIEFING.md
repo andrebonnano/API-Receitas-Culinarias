@@ -5,18 +5,17 @@ Neste projeto vamos criar uma API que faça o cadastro, consulta e alteração d
 Os ingredientes devem estar cadastrados separadamente e quando for cadastrar a receita, a pessoa escolhe os ingredientes existentes ou cadastra um novo (se já existir não pode cadastrar outro igual).
  
 ## Receitas
-Cada receita precisa ter:
-título
-data de cadastro
-categoria(s)
-tags (keywords)
-tempo de preparo
-qtd porções
-ingredientes (algumas receitas tem 2+ grupos de ingredientes ex: Recheio e Massa) 
-modo de preparo (algumas receitas tem 2+ grupos de preparo ex: Recheio e Massa)
-descrição
-avaliações (estrelas) / comentários
-imagens
+título;
+data de cadastro;
+categoria(s);
+tags (keywords);
+tempo de preparo;
+qtd porções;
+ingredientes (algumas receitas tem 2+ grupos de ingredientes ex: Recheio e Massa);
+modo de preparo (algumas receitas tem 2+ grupos de preparo ex: Recheio e Massa);
+descrição;
+avaliações (estrelas) / comentários;
+imagens;
 vídeos
 
 ## Categoria Receitas:
