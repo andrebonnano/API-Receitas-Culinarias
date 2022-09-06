@@ -1,0 +1,12 @@
+D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Dominio\bin\Debug\net6.0\Dominio.deps.json
+D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Dominio\bin\Debug\net6.0\Dominio.dll
+D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Dominio\bin\Debug\net6.0\Dominio.pdb
+D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Dominio\obj\Debug\net6.0\Dominio.csproj.AssemblyReference.cache
+D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Dominio\obj\Debug\net6.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfoInputs.cache
+D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Dominio\obj\Debug\net6.0\Dominio.AssemblyInfo.cs
+D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Dominio\obj\Debug\net6.0\Dominio.csproj.CoreCompileInputs.cache
+D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Dominio\obj\Debug\net6.0\Dominio.dll
+D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Dominio\obj\Debug\net6.0\refint\Dominio.dll
+D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Dominio\obj\Debug\net6.0\Dominio.pdb
+D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Dominio\obj\Debug\net6.0\ref\Dominio.dll

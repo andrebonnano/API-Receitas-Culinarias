@@ -3,20 +3,19 @@
     "type": "receitas",
     "qty": 1,
     "search_date": "2022-06-21T18:15:45.449Z",
-    "result":{
-        "título": "Lasanha bolonhesa",
+    "data":{
+        "titulo": "Lasanha bolonhesa",
         "data_cadastro": "2022-06-21T18:15:45.449Z",
         "user_id": "00001",
         "categorias": ["Salgados", "Refeições", "Massas"],
         "tags": ["massa", "lasanha", "bolonhesa", "queijo"],
         "tempo_preparo": 1.5,
         "porcoes": 6,
-        "grupos": ["molho", "lasanha"],
         "ingredientes": {
             "grupos":[
                 {
                     "titulo": "molho",
-                    "items":[
+                    "itens":[
                         {
                             "item": "tomates",
                             "qtd": 1,
@@ -41,7 +40,7 @@
                     ]
                 },{
                     "titulo": "lasanha",
-                    "items":[
+                    "itens":[
                         {
                             "item": "massa para lasanha",
                             "qtd": 0.5,
@@ -77,7 +76,6 @@
                             "qtd": 1,
                             "und": "dente"
                         }
-
                     ]
                 }
             ]
