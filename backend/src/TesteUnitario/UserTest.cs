@@ -6,9 +6,6 @@ namespace TesteUnitario
 
         public class ExpectectedUser
         {
-            public Guid UserId { get; set; } = Guid.NewGuid();
-            public DateTime RegistrationDate { get; set; } = DateTime.Today;
-            public DateTime LastAccess { get; set; } = DateTime.Today;
             public bool Active { get; set; } = true;
             public int AccessLevel { get; set; } = 1;
             public string Email { get; set; } = "andre@bonnano.com.br";
@@ -19,16 +16,14 @@ namespace TesteUnitario
         }
 
         public User user { get; set; } = new User(
-                expectedUser.UserId,
-                expectedUser.RegistrationDate,
-                expectedUser.LastAccess,
                 expectedUser.Active,
                 expectedUser.AccessLevel,
                 expectedUser.Email,
                 expectedUser.FirstName,
                 expectedUser.LastName,
                 expectedUser.BirthDate,
-                expectedUser.Password);
+                expectedUser.Password
+            );
 
         [Fact]
         public void DeveCriarUsuario()
@@ -43,7 +38,6 @@ namespace TesteUnitario
 
             Assert.NotNull(user.UserId);
             Assert.NotNull(user.RegistrationDate);
-            Assert.NotNull(user.LastAccess);
             Assert.NotNull(user.Active);
             Assert.NotNull(user.AccessLevel);
             Assert.NotNull(user.Email);
@@ -59,7 +53,6 @@ namespace TesteUnitario
         {
             Assert.NotEmpty(user.UserId.ToString());
             Assert.NotEmpty(user.RegistrationDate.ToString());
-            Assert.NotEmpty(user.LastAccess.ToString());
             Assert.NotEmpty(user.Active.ToString());
             Assert.NotEmpty(user.AccessLevel.ToString());
             Assert.NotEmpty(user.Email.ToString());

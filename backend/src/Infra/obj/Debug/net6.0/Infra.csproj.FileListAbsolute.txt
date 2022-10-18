@@ -10,3 +10,15 @@ D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\Infr
 D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\refint\Infra.dll
 D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\Infra.pdb
 D:\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\ref\Infra.dll
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\bin\Debug\net6.0\Infra.deps.json
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\bin\Debug\net6.0\Infra.dll
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\bin\Debug\net6.0\Infra.pdb
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\Infra.csproj.AssemblyReference.cache
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\Infra.AssemblyInfoInputs.cache
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\Infra.AssemblyInfo.cs
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\Infra.csproj.CoreCompileInputs.cache
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\Infra.dll
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\refint\Infra.dll
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\Infra.pdb
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\ref\Infra.dll

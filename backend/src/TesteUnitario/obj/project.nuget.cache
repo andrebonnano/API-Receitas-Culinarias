@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PIJBjDz00KlXMcNIbN9uTe0mO89x7L4opW0wkePrRFit4djHU5azDe1Qe6BFpw7WG8Rlfalb4/MkuMdbwdHXiA==",
+  "dgSpecHash": "gRZMEkhKS3MVRoxPXrirkcULGrPbGUsak+Ky+Ao2qhYrtPyzJNR5yegAp5QomDmPRJ9yREIsOKT6K1yUFKqIFg==",
   "success": true,
-  "projectFilePath": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\TesteUnitario\\TesteUnitario.csproj",
+  "projectFilePath": "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\TesteUnitario\\TesteUnitario.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\expectedobjects\\3.5.4\\expectedobjects.3.5.4.nupkg.sha512",
