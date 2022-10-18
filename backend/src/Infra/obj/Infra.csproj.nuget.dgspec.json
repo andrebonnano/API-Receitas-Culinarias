@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Infra\\Infra.csproj": {}
+    "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Infra\\Infra.csproj": {}
   },
   "projects": {
-    "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Infra\\Infra.csproj": {
+    "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Infra\\Infra.csproj",
+        "projectUniqueName": "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Infra\\Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Infra\\Infra.csproj",
+        "projectPath": "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Infra\\Infra.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Infra\\obj\\",
+        "outputPath": "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -4,12 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{498C7E3C-567A-43D9-864E-C0370284B251}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1D9B082C-20AB-4572-ADBD-03ECC9F9F4C2} = {1D9B082C-20AB-4572-ADBD-03ECC9F9F4C2}
+	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Dominio\Dominio.csproj", "{1D9B082C-20AB-4572-ADBD-03ECC9F9F4C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Dominio\Domain.csproj", "{1D9B082C-20AB-4572-ADBD-03ECC9F9F4C2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "Infra\Infra.csproj", "{AC033BD8-97E6-4981-B1B2-D77F517004E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteUnitario", "TesteUnitario\TesteUnitario.csproj", "{60E10A22-07DB-4578-A730-E3C42269555D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TesteUnitario", "TesteUnitario\TesteUnitario.csproj", "{60E10A22-07DB-4578-A730-E3C42269555D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

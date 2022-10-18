@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj": {}
+    "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj": {
+    "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj",
+        "projectPath": "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\obj\\",
+        "outputPath": "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

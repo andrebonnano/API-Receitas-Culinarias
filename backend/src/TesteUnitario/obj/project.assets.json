@@ -1816,14 +1816,14 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "Dominio/1.0.0": {
+      "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/Dominio.dll": {}
+          "bin/placeholder/Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Dominio.dll": {}
+          "bin/placeholder/Domain.dll": {}
         }
       }
     }
@@ -6135,15 +6135,15 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Dominio/1.0.0": {
+    "Domain/1.0.0": {
       "type": "project",
-      "path": "../Dominio/Dominio.csproj",
-      "msbuildProject": "../Dominio/Dominio.csproj"
+      "path": "../Dominio/Domain.csproj",
+      "msbuildProject": "../Dominio/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Dominio >= 1.0.0",
+      "Domain >= 1.0.0",
       "ExpectedObjects >= 3.5.4",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "coverlet.collector >= 3.1.2",
@@ -6157,11 +6157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\TesteUnitario\\TesteUnitario.csproj",
+      "projectUniqueName": "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\TesteUnitario\\TesteUnitario.csproj",
       "projectName": "TesteUnitario",
-      "projectPath": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\TesteUnitario\\TesteUnitario.csproj",
+      "projectPath": "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\TesteUnitario\\TesteUnitario.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\TesteUnitario\\obj\\",
+      "outputPath": "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\TesteUnitario\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6178,8 +6178,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj": {
-              "projectPath": "D:\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Dominio.csproj"
+            "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Domain.csproj": {
+              "projectPath": "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Dominio\\Domain.csproj"
             }
           }
         }

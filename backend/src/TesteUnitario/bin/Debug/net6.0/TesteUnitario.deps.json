@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "TesteUnitario/1.0.0": {
         "dependencies": {
-          "Dominio": "1.0.0",
+          "Domain": "1.0.0",
           "ExpectedObjects": "3.5.4",
           "Microsoft.NET.Test.Sdk": "17.1.0",
           "coverlet.collector": "3.1.2",
@@ -1103,9 +1103,9 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
-      "Dominio/1.0.0": {
+      "Domain/1.0.0": {
         "runtime": {
-          "Dominio.dll": {}
+          "Domain.dll": {}
         }
       }
     }
@@ -1767,7 +1767,7 @@
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
-    "Dominio/1.0.0": {
+    "Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
