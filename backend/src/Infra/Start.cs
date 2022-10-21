@@ -1,5 +1,6 @@
 ﻿using Domain.Entities.Recipes;
 using Infra.Repositories;
+using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace Infra
@@ -34,11 +35,11 @@ namespace Infra
 
 
             //////////// LISTAR /////////////
-            //GetRecipes receitas = new GetRecipes();
-            //await receitas.GetByUser("95b25fdf-b85c-4026-9b2d-f0c747b97b7e");
-            //await receitas.GetById("4873f18b-88d0-4cf6-a785-15f5d630af38");
+            //RecipesGetRepo receitas = new RecipesGetRepo();
+            //await receitas.GetByUserId("1a2f7842-d93c-4e3f-87ec-f9eef568c768");
+            //await receitas.GetById("d9caf85b-31a3-466c-b2b9-77503ade0650");
             //await receitas.GetByClassTitle("andre");
-            //await receitas.GetAll();
+            //await receitas.GetAll();alinAline, o pessoal 
 
 
 
@@ -49,9 +50,34 @@ namespace Infra
 
 
 
-            //////////// REMOVE ////////////
-            RemoveRecipe remover = new RemoveRecipe("210b30f0-d543-4221-83f0-0b3ec9178144");
-            await remover.Execute();
+            ////////////// REMOVE ////////////
+            //RecipesRemoveRepo remover = new RecipesRemoveRepo();
+            //await remover.Delete("2aaaf503-8cf2-4b4a-b5c8-ccb49d15f0b2");
+
+
+
+
+
+            ///////////////////// Category /////////////////////
+            //Category categoria = new("Tortas");
+            //CategoriesInsertRepo repo = new CategoriesInsertRepo();
+            //await repo.AddOne(categoria);
+
+            //CategoriesGetRepo repo2 = new CategoriesGetRepo();
+            //var result = await repo2.GetById("6b83b5e8-0365-48a9-b209-21f55ee13a81");
+            //Console.WriteLine(result.Name);
+
+            //var result2 = await repo2.GetByName("Tortas");
+            //Console.WriteLine(result2.FirstOrDefault().Id);
+
+            //var result3 = await repo2.GetAll();
+            //Console.WriteLine(result3.ToList().Count);
+
+
+            CategoriesRepo catRepo = new();
+            //await catRepo.AddOne(new Category("Categoria Teste"));
+            var result = await catRepo.GetAll();
+            Console.WriteLine(result.ToJson());
 
         }
     }

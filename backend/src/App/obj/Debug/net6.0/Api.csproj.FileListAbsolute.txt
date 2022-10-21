@@ -1,3 +1,6 @@
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Infra.deps.json
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Infra.runtimeconfig.json
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Infra.exe
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\appsettings.Development.json
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\appsettings.json
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Api.exe
@@ -6,6 +9,8 @@ E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\A
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Api.dll
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Api.pdb
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\DnsClient.dll
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Microsoft.OpenApi.dll
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\MongoDB.Bson.dll
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\MongoDB.Driver.dll
@@ -20,8 +25,12 @@ E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Z
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Application.dll
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Domain.dll
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Infra.dll
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Application.pdb
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Domain.pdb
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\Infra.pdb
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\obj\Debug\net6.0\Api.csproj.AssemblyReference.cache
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\obj\Debug\net6.0\Api.GeneratedMSBuildEditorConfig.editorconfig
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\obj\Debug\net6.0\Api.AssemblyInfoInputs.cache

@@ -1,5 +1,6 @@
 ﻿using Domain.Entities.Recipes;
 using Microsoft.AspNetCore.Mvc;
+using Application.Services;
 
 namespace App.Controllers
 {
@@ -11,9 +12,10 @@ namespace App.Controllers
         [HttpGet("GetRecipeById", Name = "GetRecipeById")]
         public Recipe GetRecipeById(string recipeId)
         {
-            Recipe receita = new Recipe();
-            receita.Title = "Nome da Receita";
-            return receita;
+            string RecipeId = recipeId;
+            var recipe = new GetRecipeByIdService();
+            var result = recipe.Get(RecipeId).Result.FirstOrDefault();
+            return result;
         }
 
         [HttpGet("GetRecipesByCategoryId", Name = "GetRecipesByCategoryId")]

@@ -1,8 +1,4 @@
-﻿using Domain.Entities.Recipes;
-using Domain.Entities.Users;
-using MongoDB.Driver;
-
-namespace Infra
+﻿namespace Infra
 {
     class Context
     {
@@ -33,6 +29,11 @@ namespace Infra
         public IMongoCollection<User> Users
         {
             get { return _database.GetCollection<User>("users"); }
+        }
+
+        public IMongoCollection<Category> Categories
+        {
+            get { return _database.GetCollection<Category>("categories"); }
         }
     }
 }
