@@ -1,3 +1,5 @@
+using Domain.Entities.Users;
+
 namespace TesteUnitario
 {
     public class UserTest
@@ -16,15 +18,14 @@ namespace TesteUnitario
         }
 
         public User user { get; set; } = new User(
-                expectedUser.Active,
                 expectedUser.AccessLevel,
                 expectedUser.Email,
                 expectedUser.FirstName,
                 expectedUser.LastName,
-                expectedUser.BirthDate,
                 expectedUser.Password
             );
 
+        
         [Fact]
         public void DeveCriarUsuario()
         {
