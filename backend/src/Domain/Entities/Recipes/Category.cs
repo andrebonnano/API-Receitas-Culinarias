@@ -1,15 +1,8 @@
 ﻿
-using System.ComponentModel.Design;
-
 namespace Domain.Entities.Recipes
 {
     public class Category
     {
-        public Category()
-        {
-
-        }
-
         public Category(string name)
         {
             Name = name;
@@ -22,11 +15,11 @@ namespace Domain.Entities.Recipes
         }
 
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public string? Id { get; set; }
 
-        public string CategoryId { get; private set; } = Guid.NewGuid().ToString();
-        public bool Active { get; private set; } = true;
-        public string Name { get; private set; }
-        public string Parent { get; private set; }
+        public string CategoryId { get; set; } = Guid.NewGuid().ToString();
+        public bool Active { get;  set; } = true;
+        public string Name { get;  set; }
+        public string? Parent { get;  set; }
     }
 }

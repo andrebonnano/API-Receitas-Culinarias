@@ -1,7 +1,4 @@
 ﻿
-using Domain.Entities.Recipes;
-using MongoDB.Driver;
-
 namespace Infra.Repositories
 {
     public class CategoriesRepo : ICategoriesRepo
@@ -33,12 +30,21 @@ namespace Infra.Repositories
             var lista = await dbContext.Categories.Find(condicao).ToListAsync();
             return lista;
         }
+
+        public async Task<IEnumerable<Category>> GetByParent(string name)
+        {
+            var construtor = Builders<Category>.Filter;
+            var condicao = construtor.Eq(c => c.Parent, name);
+            var lista = await dbContext.Categories.Find(condicao).ToListAsync();
+            return lista;
+        }
         #endregion
 
         #region == POST ==
-        public async Task AddOne(Category category)
+        public async Task<Category> AddOne(Category category)
         {
             await dbContext.Categories.InsertOneAsync(category);
+            return category;
         }
 
         public async Task AddMany(IEnumerable<Category> categories)
@@ -48,13 +54,17 @@ namespace Infra.Repositories
         #endregion
 
         #region == UPDATE ==
-        public async Task Update(string categoryId, Category category)
+        public async Task<Category> Update(string categoryId, Category category)
         {
+            Category? originCategory = GetById(categoryId).Result.FirstOrDefault();
+            category.Id = originCategory!.Id;
+            category.CategoryId = categoryId;
             var construtor = Builders<Category>.Filter;
             var condicao = construtor.Eq(c => c.CategoryId, categoryId);
             await dbContext.Categories.ReplaceOneAsync(condicao, category);
+            return originCategory;
         }
-        public async Task Desctivate(string categoryId)
+        public async Task Deactivate(string categoryId)
         {
             var construtor = Builders<Category>.Filter;
             var condicao = construtor.Eq(c => c.CategoryId, categoryId);

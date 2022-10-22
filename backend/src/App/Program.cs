@@ -1,8 +1,4 @@
 using Api.Setup;
-using Application.Interfaces;
-using Application.Services;
-using Infra.Interfaces.Repositories;
-using Infra.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,10 +9,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 #region == Dependency Injection ==
-builder.Services.AddScoped<IRecipesRepo, RecipesRepo>();
-builder.Services.AddScoped<ICategoriesRepo, CategoriesRepo>();
-builder.Services.AddScoped<ICategoriesGetAllService, CategoriesGetAllService>();
+InjectionSetup.Setup(builder.Services);
 #endregion
 
 

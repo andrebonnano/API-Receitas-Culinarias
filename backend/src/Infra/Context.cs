@@ -1,4 +1,5 @@
-﻿namespace Infra
+﻿
+namespace Infra
 {
     class Context
     {

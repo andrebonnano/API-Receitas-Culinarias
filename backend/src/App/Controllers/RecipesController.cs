@@ -13,7 +13,7 @@ namespace App.Controllers
         public Recipe GetRecipeById(string recipeId)
         {
             string RecipeId = recipeId;
-            var recipe = new GetRecipeByIdService();
+            var recipe = new RecipesRepoService();
             var result = recipe.Get(RecipeId).Result.FirstOrDefault();
             return result;
         }

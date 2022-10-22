@@ -7,11 +7,11 @@ namespace Api.Setup
 {
     public static class InjectionSetup
     {
-        public static void SetupInjection (IServiceCollection services)
+        public static void Setup (IServiceCollection services)
         {
             services.AddScoped<IRecipesRepo, RecipesRepo>();
             services.AddScoped<ICategoriesRepo, CategoriesRepo>();
-            services.AddScoped<ICategoriesGetAllService, CategoriesGetAllService>();
+            services.AddScoped<ICategoriesRepoService, CategoriesRepoService>();
         }
     }
 }

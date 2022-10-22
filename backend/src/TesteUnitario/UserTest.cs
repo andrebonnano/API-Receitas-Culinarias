@@ -19,7 +19,10 @@ namespace TesteUnitario
 
         public User user { get; set; } = new User(
                 expectedUser.AccessLevel,
-                expectedUser.Email
+                expectedUser.Email,
+                expectedUser.FirstName,
+                expectedUser.LastName,
+                expectedUser.Password
             );
 
         

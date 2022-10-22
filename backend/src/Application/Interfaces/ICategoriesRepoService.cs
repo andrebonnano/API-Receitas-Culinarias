@@ -1,7 +1,7 @@
 ﻿
-namespace Infra.Interfaces.Repositories
+namespace Application.Interfaces
 {
-    public interface ICategoriesRepo
+    public interface ICategoriesRepoService
     {
         #region == GET ==
         Task<IEnumerable<Category>> GetAll();
@@ -11,12 +11,12 @@ namespace Infra.Interfaces.Repositories
         #endregion
 
         #region == POST ==
-        Task<Category> AddOne(Category category);
-        Task AddMany(IEnumerable<Category> categories);
+        Task<Category> AddOne(string name, string parent);
+        Task AddMany(string[] names, string[] parents);
         #endregion
 
         #region == UPDATE ==
-        Task<Category> Update(string categoryId, Category category);
+        Task<Category> Update(string categoryId, string name, string? parent);
         Task Deactivate(string categoryId);
         #endregion
 
