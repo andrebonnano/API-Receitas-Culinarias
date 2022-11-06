@@ -17,11 +17,11 @@ namespace Application.Interfaces
 
         #region == UPDATE ==
         Task<Category> Update(string categoryId, string name, string? parent);
-        Task Deactivate(string categoryId);
+        Task<Category> Deactivate(string categoryId);
         #endregion
 
         #region == DELETE ==
-        Task Delete(string categoryId);
+        Task<bool> Delete(string categoryId);
         #endregion
     }
 }

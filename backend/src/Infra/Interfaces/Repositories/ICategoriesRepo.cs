@@ -17,11 +17,11 @@ namespace Infra.Interfaces.Repositories
 
         #region == UPDATE ==
         Task<Category> Update(string categoryId, Category category);
-        Task Deactivate(string categoryId);
+        Task<Category> Deactivate(string categoryId);
         #endregion
 
         #region == DELETE ==
-        Task Delete(string categoryId);
+        Task<bool> Delete(string categoryId);
         #endregion
     }
 }

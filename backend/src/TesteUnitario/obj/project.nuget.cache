@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "5sLJIKBmyOjuFECSNjuyL6piTBp378t390vXVI82m4nMff+KAAaBZl208Ox0nJGHqGCiw9OdHbsDCNvM7eFZZw==",
+  "dgSpecHash": "None7qn02AVRqCDyZnQGJEj1jc3ugVyKoqrPmKpUDxe8dhvU1wK8m9eug8tKW2qYqFSd0qsHOTB7fIq3+ITJMg==",
   "success": true,
   "projectFilePath": "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\TesteUnitario\\TesteUnitario.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\expectedobjects\\3.5.4\\expectedobjects.3.5.4.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
-    "C:\\Users\\andre\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

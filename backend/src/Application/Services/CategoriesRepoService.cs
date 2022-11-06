@@ -80,17 +80,20 @@ namespace Application.Services
         {
             Category category = new(name, parent!);
             category.CategoryId = categoryId;
-            return await _categoriesRepo.Update(categoryId, category);
+            var result =  await _categoriesRepo.Update(categoryId, category);
+            return result;
         }
 
-        public async Task Deactivate(string categoryId)
+        public async Task<Category> Deactivate(string categoryId)
         {
-            await _categoriesRepo.Deactivate(categoryId);
+            var category = await _categoriesRepo.Deactivate(categoryId);
+            return category;
         }
 
-        public async Task Delete(string categoryId)
+        public async Task<bool> Delete(string categoryId)
         {
             await _categoriesRepo.Delete(categoryId);
+            return true;
         }
 
         #endregion

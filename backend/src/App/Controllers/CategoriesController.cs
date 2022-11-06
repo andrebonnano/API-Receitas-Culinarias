@@ -18,7 +18,7 @@ namespace Api.Controllers
             _categoriesRepoService = categoriesRepoService;            
         }
 
-        [HttpGet("GetAll", Name = "GetAll")]
+        [HttpGet("get", Name = "Gett All")]
         public IEnumerable<Category> CategoriesGetAllService()
         {
             var lista = _categoriesRepoService.GetAll();
@@ -26,7 +26,7 @@ namespace Api.Controllers
             return result;
         }
 
-        [HttpGet("GetById", Name = "sGetById")]
+        [HttpGet("getId/{id}/", Name = "Get by id")]
         public IEnumerable<Category> CategoriesGetByIdService(string id)
         {
             var lista = _categoriesRepoService.GetById(id);
@@ -34,7 +34,7 @@ namespace Api.Controllers
             return result;
         }
 
-        [HttpGet("GetByName", Name = "GetByName")]
+        [HttpGet("getName/{name}/", Name = "Get by name")]
         public IEnumerable<Category> CategoriesGetByNameService(string name)
         {
             var lista = _categoriesRepoService.GetByName(name);
@@ -42,38 +42,38 @@ namespace Api.Controllers
             return result;
         }
 
-        [HttpGet("GetByParent", Name = "GetByParent")]
-        public IEnumerable<Category> CategoriesGetByParentService(string name)
+        [HttpGet("getParent/{parent}/", Name = "Get by parent")]
+        public IEnumerable<Category> CategoriesGetByParentService(string parent)
         {
-            var lista = _categoriesRepoService.GetByParent(name);
+            var lista = _categoriesRepoService.GetByParent(parent);
             var result = lista.Result.ToList();
             return result;
         }
 
-        [HttpPost("AddOne", Name = "AddOne")]
-        public Category CategoriesAddOneService(string name, string? parent)
+        [HttpPost("add", Name = "Post category")]
+        public Category CategoriesAddOneService([FromQuery] string name, [FromQuery] string? parent)
         {
             return _categoriesRepoService.AddOne(name, parent!).Result;
         }
 
-        [HttpPut ("Update", Name = "Update")]
-        public Category CategoriesUpdateService(string categoryId, string name, string? parent)
+        [HttpPut ("edit/{id}", Name = "Update")]
+        public Category CategoriesUpdateService(string id, string name, string? parent)
         {
-            return _categoriesRepoService.Update(categoryId, name, parent).Result;
+            return _categoriesRepoService.Update(id, name, parent).Result;
         }
 
-        [HttpPut("Deactivate", Name = "Deactivate")]
-        public string CategoriesDeactivateService(string categoryId)
+        [HttpPatch("deactivate/{id}", Name = "Deactivate")]
+        public string CategoriesDeactivateService(string id)
         {
-            _categoriesRepoService.Deactivate(categoryId);
+            _categoriesRepoService.Deactivate(id);
             return "Registro desativado com sucesso";
         }
 
-        [HttpDelete("Delete", Name = "Delete")]
-        public string CategoriesDeleteService(string categoryId)
+        [HttpDelete("delete/{id}", Name = "Delete")]
+        public async Task<IActionResult> CategoriesDeleteService(string id)
         {
-            _categoriesRepoService.Delete(categoryId);
-            return "Registro desatexcluidoivado com sucesso";
+            await _categoriesRepoService.Delete(id);
+            return StatusCode(200, "Registro excluido");
         }
     }
 }

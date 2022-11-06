@@ -45,3 +45,4 @@ E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\Infra.pdb
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\Infra.genruntimeconfig.cache
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\obj\Debug\net6.0\ref\Infra.dll
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\Infra\bin\Debug\net6.0\AutoMapper.dll

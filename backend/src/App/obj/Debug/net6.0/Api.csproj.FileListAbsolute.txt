@@ -47,3 +47,4 @@ E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\obj\Debug\net6.0\r
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\obj\Debug\net6.0\Api.pdb
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\obj\Debug\net6.0\Api.genruntimeconfig.cache
 E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\obj\Debug\net6.0\ref\Api.dll
+E:\WORK\Grupo de Estudos\Proj.01-GrupoEstudos\backend\src\App\bin\Debug\net6.0\AutoMapper.dll

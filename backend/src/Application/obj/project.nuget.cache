@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TTmyfAhOn68trXIe9xqUCZ5g9KXiRv/VLRFjspd9r8E16FX7sZfVYCBSD5gBNCGDY6vqjyastw7mTnwXNILwkA==",
+  "dgSpecHash": "yHo0nT9KCyZnCk9w0Xfx1Ea3YYv+bHW6hilTPEmQrDNbQu6p2wR6zmxCNeO5a7akVONK4ECfjTcrO5tVRbn1OQ==",
   "success": true,
   "projectFilePath": "E:\\WORK\\Grupo de Estudos\\Proj.01-GrupoEstudos\\backend\\src\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",

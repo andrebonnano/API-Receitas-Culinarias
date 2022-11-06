@@ -1,4 +1,6 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
+
 namespace Domain.Entities.Recipes
 {
     public class Category
@@ -18,8 +20,11 @@ namespace Domain.Entities.Recipes
         public string? Id { get; set; }
 
         public string CategoryId { get; set; } = Guid.NewGuid().ToString();
+        
         public bool Active { get;  set; } = true;
+
         public string Name { get;  set; }
+        
         public string? Parent { get;  set; }
     }
 }
